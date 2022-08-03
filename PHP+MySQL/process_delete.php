@@ -1,5 +1,5 @@
 <?php
-$conn = mysqli_connect("127.0.0.1", "root", "dbstoWkd", "opentutorials", "3307");
+$conn = mysqli_connect("127.0.0.1", "root", "<password>", "opentutorials", "3307");
 
 $filtered = array(
   'id' => mysqli_real_escape_string($conn, $_POST['id'])
