@@ -1,5 +1,5 @@
 <?php
-$conn = mysqli_connect("127.0.0.1", "root", "dbstoWkd", "Dice", "3307");
+$conn = mysqli_connect("127.0.0.1", "root", "<password>", "Dice", "3307");
 
 //sql filter
 $filtered = array(
