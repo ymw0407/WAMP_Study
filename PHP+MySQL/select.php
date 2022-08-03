@@ -1,5 +1,5 @@
 <?php
-$conn = mysqli_connect("127.0.0.1", "root", "dbstoWkd", "opentutorials", "3307");
+$conn = mysqli_connect("127.0.0.1", "root", "<password>", "opentutorials", "3307");
 
 //1 row
 $sql = "SELECT * FROM topic";
