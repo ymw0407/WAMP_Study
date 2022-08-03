@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&family=Nanum+Pen+Script&display=swap');
+.font {
+  font-family: 'Nanum Pen Script';
+  font-size: 20px
+}
+
+body{
+      margin:0;
+}
+
+.title {
+  background-color:#F0F0F0;
+  width: 12fr;
+  margin: 0px auto;
+  padding: 2%;
+  font-size: 100%;
+  border-bottom: 1px solid gray;
+}
+
+.none_deco{
+  text-decoration: none;
+  color: black;
+}
+
+#list {
+  padding-left: 20px;
+  text-decoration: none;
+  border-right: 1px solid gray;
+}
+
+#list .ol {
+  color: black;
+  text-decoration: none;
+  padding: 0px;
+  font-size: 30px;
+  padding-top: 5px;
+}
+
+#content {
+ padding-left: 10px;
+}
+
+#grid{
+  display: grid;
+  grid-template-columns: 3fr 9fr;
+}
+
+.highlight {
+  background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+  background-repeat: no-repeat;
+  background-size: 100% 50%;
+  background-position: 0 88%;
+  transition: background-size 0.25s ease-in;
+}
+.highlight:hover{
+  background-size: 100% 80%;
+}
+
+h4{
+  padding-top: 10px;
+}
+
+.link{
+  text-decoration: none;
+}
+
+.subhead{
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+}
+
+table {
+  width: 80%;
+  border-top: 1px solid;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  border-collapse: collapse;
+}
+
+td, tr{
+  text-align: center;
+  border-bottom: 1px solid;
+  border-left: 1px solid;
+  padding: 5px;
+  font-size: 13px;
+}
+
+th:first-child, td:first-child {
+  border-left: none;
+}
