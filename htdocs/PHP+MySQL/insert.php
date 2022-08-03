@@ -1,5 +1,5 @@
 <?php
-$conn = mysqli_connect("127.0.0.1", "root", "dbstoWkd", "community", "3307");
+$conn = mysqli_connect("127.0.0.1", "root", "<password>", "community", "3307");
 $sql = "
   INSERT INTO topic (
     title,
